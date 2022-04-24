@@ -70,7 +70,7 @@
     "rsn": "ts-node rsn/rsn.ts",
     "rsn:verbose": "ts-node rsn/rsn-verbose.ts",
     "rsn:update": "ts-node rsn/rsn-update.ts",
-    "sonar": "node sonar-project.js"
+    "sonar": "node sonar-project.js",
     "vagrant": "cd vagrant && vagrant up"
   },
   "jest": {
