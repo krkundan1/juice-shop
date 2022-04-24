@@ -1,6 +1,6 @@
 {
   "name": "juice-shop",
-  "version": "16.6.0",
+  "version": "13.3.0",
   "private": true,
   "description": "Probably the most modern and sophisticated insecure web application",
   "keywords": [
@@ -21,11 +21,11 @@
   ],
   "homepage": "https://owasp-juice.shop",
   "bugs": {
-    "url": "https://github.com/juice-shop/juice-shop/issues"
+    "url": "https://github.com/krkundan1/juice-shop/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/juice-shop/juice-shop.git"
+    "url": "https://github.com/krkundan1/juice-shop.git"
   },
   "license": "MIT",
   "author": "Björn Kimminich <bjoern.kimminich@owasp.org> (https://kimminich.de)",
@@ -70,6 +70,7 @@
     "rsn": "ts-node rsn/rsn.ts",
     "rsn:verbose": "ts-node rsn/rsn-verbose.ts",
     "rsn:update": "ts-node rsn/rsn-update.ts",
+    "sonar": "node sonar-project.js"
     "vagrant": "cd vagrant && vagrant up"
   },
   "jest": {
